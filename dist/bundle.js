@@ -79,7 +79,7 @@
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-eval("\n\nvar _moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nvar _moment2 = _interopRequireDefault(_moment);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/index.js\");\n\nconsole.log('hello from index.js');\n\nvar datetime = (0, _moment2.default)().endOf('day').fromNow();\nconsole.log(\"The day will be over \" + datetime);\n\nconsole.log(math.sqrt(4));\n\nvar name = \"Bob\",\n    time = \"today\";\nconsole.log('Hello ' + name + ', how are you ' + time);\n\n//# sourceURL=webpack:///./index.js?");
+eval("\n\nvar _moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nvar _moment2 = _interopRequireDefault(_moment);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\nvar math = __webpack_require__(/*! mathjs */ \"./node_modules/mathjs/index.js\");\n\nconsole.log('hello from index.js');\n\nvar datetime = (0, _moment2.default)().endOf('day').fromNow();\nconsole.log(\"The day will be over \" + datetime);\n\nconsole.log(math.sqrt(4));\n\nvar name = \"Bob\",\n    time = \"today\";\nconsole.log(\"Hello ${name}, how are you ${time}\");\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
